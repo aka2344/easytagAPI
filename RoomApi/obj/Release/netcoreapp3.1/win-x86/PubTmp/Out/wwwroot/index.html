@@ -1,0 +1,433 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>API Index</title>
+    <style>
+        .table {
+            border-collapse: collapse;
+            border-top: 3px solid #168;
+        }
+
+            .table th {
+                color: #168;
+                background: #f0f6f9;
+                text-align: center;
+            }
+
+            .table th, .table td {
+                padding: 10px;
+                border: 1px solid #ddd;
+            }
+
+                .table th:first-child, .table td:first-child {
+                    border-left: 0;
+                }
+
+                .table th:last-child, .table td:last-child {
+                    border-right: 0;
+                }
+
+            .table tr td:first-child {
+                text-align: center;
+            }
+
+            .table caption {
+                caption-side: bottom;
+                display: none;
+            }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jput.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function () {
+
+            $("#tbody_dept").jPut({
+                //jsonData: json,
+                ajax_url: "http://localhost:5001/api/room/department",
+                ajax_type: 'get',
+                prepend: true,
+                name: "tbody_template_dept",
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+
+            $("#tbody_room").jPut({
+                //jsonData: json,
+                ajax_url: "http://localhost:5001/api/room/room",
+                ajax_type: 'get',
+                prepend: true,
+                name: "tbody_template_room",
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+
+            $("#tbody_account").jPut({
+                //jsonData: json,
+                ajax_url: "http://localhost:5001/api/room/account",
+                ajax_type: 'get',
+                prepend: true,
+                name: "tbody_template_account",
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+
+            $("#tbody_building").jPut({
+                //jsonData: json,
+                ajax_url: "http://localhost:5001/api/room/building",
+                ajax_type: 'get',
+                prepend: true,
+                name: "tbody_template_building",
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+
+            $("#tbody_complaint").jPut({
+                //jsonData: json,
+                ajax_url: "http://localhost:5001/api/room/complaint",
+                ajax_type: 'get',
+                prepend: true,
+                name: "tbody_template_complaint",
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+
+            $("#tbody_equipment").jPut({
+                //jsonData: json,
+                ajax_url: "http://localhost:5001/api/room/equipment",
+                ajax_type: 'get',
+                prepend: true,
+                name: "tbody_template_equipment",
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+
+            $("#tbody_maintenance").jPut({
+                //jsonData: json,
+                ajax_url: "http://localhost:5001/api/room/maintenance",
+                ajax_type: 'get',
+                prepend: true,
+                name: "tbody_template_maintenance",
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+
+            $("#tbody_survey").jPut({
+                //jsonData: json,
+                ajax_url: "http://localhost:5001/api/room/survey",
+                ajax_type: 'get',
+                prepend: true,
+                name: "tbody_template_survey",
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+
+            $("#tbody_history").jPut({
+                //jsonData: json,
+                ajax_url: "http://localhost:5001/api/room/history",
+                ajax_type: 'get',
+                prepend: true,
+                name: "tbody_template_history",
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+
+        });
+    </script>
+
+    <table jput="t_template">
+        <tbody jput="tbody_template_dept">
+            <tr>
+                <td>{{deptNo}}</td>
+                <td>{{deptName}}</td>
+                <td>{{deptPhoneNum}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table jput="t_template">
+        <tbody jput="tbody_template_room">
+            <tr>
+                <td>{{roomid}}</td>
+                <td>{{roomname}}</td>
+                <td>{{area}}</td>
+                <td>{{roomnum}}</td>
+                <td>{{buildingNo}}</td>
+                <td>{{deptNo}}</td>
+                <td>{{floor}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table jput="t_template">
+        <tbody jput="tbody_template_equipment">
+            <tr>
+                <td>{{equipNo}}</td>
+                <td>{{causeNo}}</td>
+                <td>{{name_KR}}</td>
+                <td>{{name_ENG}}</td>
+                <td>{{itemName}}</td>
+                <td>{{isDisuse}}</td>
+                <td>{{inDate}}</td>
+                <td>{{price}}</td>
+                <td>{{type}}</td>
+                <td>{{lifeYear}}</td>
+                <td>{{status}}</td>
+                <td>{{qR_Date}}</td>
+                <td>{{etc}}</td>
+                <td>{{roomID}}</td>
+                <td>{{userID}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table jput="t_template">
+        <tbody jput="tbody_template_account">
+            <tr>
+                <td>{{userID}}</td>
+                <td>{{userPW}}</td>
+                <td>{{userName}}</td>
+                <td>{{phoneNumber}}</td>
+                <td>{{authority}}</td>
+                <td>{{deptNo}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table jput="t_template">
+        <tbody jput="tbody_template_building">
+            <tr>
+                <td>{{buildingNo}}</td>
+                <td>{{buildingName}}</td>
+                <td>{{totalFloor}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table jput="t_template">
+        <tbody jput="tbody_template_complaint">
+            <tr>
+                <td>{{registNo}}</td>
+                <td>{{request}}</td>
+                <td>{{registDate}}</td>
+                <td>{{fixedDate}}</td>
+                <td>{{equipNo}}</td>
+                <td>{{userID}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table jput="t_template">
+        <tbody jput="tbody_template_maintenance">
+            <tr>
+                <td>{{m_No}}</td>
+                <td>{{applyDate}}</td>
+                <td>{{applyReason}}</td>
+                <td>{{isApproval}}</td>
+                <td>{{approvalDate}}</td>
+                <td>{{startDate}}</td>
+                <td>{{endDate}}</td>
+                <td>{{details}}</td>
+                <td>{{cost}}</td>
+                <td>{{equipNo}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table jput="t_template">
+        <tbody jput="tbody_template_survey">
+            <tr>
+                <td>{{surveyNo}}</td>
+                <td>{{surveyDate}}</td>
+                <td>{{surveyResult}}</td>
+                <td>{{etc}}</td>
+                <td>{{equipNo}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table jput="t_template">
+        <tbody jput="tbody_template_history">
+            <tr>
+                <td>{{historyNo}}</td>
+                <td>{{equipNo}}</td>
+                <td>{{causeNo}}</td>
+                <td>{{name_KR}}</td>
+                <td>{{name_ENG}}</td>
+                <td>{{itemName}}</td>
+                <td>{{isDisuse}}</td>
+                <td>{{inDate}}</td>
+                <td>{{price}}</td>
+                <td>{{type}}</td>
+                <td>{{lifeYear}}</td>
+                <td>{{status}}</td>
+                <td>{{qR_Date}}</td>
+                <td>{{etc}}</td>
+                <td>{{roomID}}</td>
+                <td>{{userID}}</td>
+                <td>{{editDate}}</td>
+                <td>{{editType}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="howto.html">API 사용법</a>
+    <br />
+    <h4>Department</h4>
+    <table class="table">
+        <tr>
+            <th>deptNo</th>
+            <th>deptName</th>
+            <th>deptPhoneNum</th>
+        </tr>
+        <tbody id="tbody_dept">
+        </tbody>
+    </table>
+
+    <h4>Room</h4>
+    <table class="table">
+        <tr>
+            <th>roomid</th>
+            <th>roomname</th>
+            <th>area</th>
+            <th>roomnum</th>
+            <th>buildingNo</th>
+            <th>deptNo</th>
+            <th>floor</th>
+        </tr>
+        <tbody id="tbody_room">
+        </tbody>
+    </table>
+
+    <h4>Equipment</h4>
+    <table class="table">
+        <tr>
+            <th>equipNo</th>
+            <th>causeNo</th>
+            <th>name_KR</th>
+            <th>name_ENG</th>
+            <th>itemName</th>
+            <th>isDisuse</th>
+            <th>inDate</th>
+            <th>price</th>
+            <th>type</th>
+            <th>lifeYear</th>
+            <th>status</th>
+            <th>qR_Date</th>
+            <th>etc</th>
+            <th>roomID</th>
+            <th>userID</th>
+        </tr>
+        <tbody id="tbody_equipment">
+        </tbody>
+    </table>
+
+    <h4>Account</h4>
+    <table class="table">
+        <tr>
+            <th>userID</th>
+            <th>userPW</th>
+            <th>userName</th>
+            <th>phoneNumber</th>
+            <th>authority</th>
+            <th>deptNo</th>
+        </tr>
+        <tbody id="tbody_account">
+        </tbody>
+    </table>
+
+    <h4>Building</h4>
+    <table class="table">
+        <tr>
+            <th>buildingNo</th>
+            <th>buildingName</th>
+            <th>totalFloor</th>
+        </tr>
+        <tbody id="tbody_building">
+        </tbody>
+    </table>
+
+    <h4>Complaint</h4>
+    <table class="table">
+        <tr>
+            <th>registNo</th>
+            <th>request</th>
+            <th>registDate</th>
+            <th>fixedDate</th>
+            <th>equipNo</th>
+            <th>userID</th>
+        </tr>
+        <tbody id="tbody_complaint">
+        </tbody>
+    </table>
+
+    <h4>Maintenance</h4>
+    <table class="table">
+        <tr>
+            <th>m_No</th>
+            <th>applyDate</th>
+            <th>applyReason</th>
+            <th>isApproval</th>
+            <th>approvalDate</th>
+            <th>startDate</th>
+            <th>endDate</th>
+            <th>details</th>
+            <th>cost</th>
+            <th>equipNo</th>
+        </tr>
+        <tbody id="tbody_maintenance">
+        </tbody>
+    </table>
+
+    <h4>Survey</h4>
+    <table class="table">
+        <tr>
+            <th>surveyNo</th>
+            <th>surveyDate</th>
+            <th>surveyResult</th>
+            <th>etc</th>
+            <th>equipNo</th>
+        </tr>
+        <tbody id="tbody_survey">
+        </tbody>
+    </table>
+
+    <h4>History</h4>
+    <table class="table">
+        <tr>
+            <th>historyNo</th>
+            <th>equipNo</th>
+            <th>causeNo</th>
+            <th>name_KR</th>
+            <th>name_ENG</th>
+            <th>itemName</th>
+            <th>isDisuse</th>
+            <th>inDate</th>
+            <th>price</th>
+            <th>type</th>
+            <th>lifeYear</th>
+            <th>status</th>
+            <th>qR_Date</th>
+            <th>etc</th>
+            <th>roomID</th>
+            <th>userID</th>
+            <th>editDate</th>
+            <th>editType</th>
+        </tr>
+        <tbody id="tbody_history">
+        </tbody>
+    </table>
+
+</body>
+   
+</html>

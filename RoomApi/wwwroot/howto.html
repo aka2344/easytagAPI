@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    사용법 : <br />
+    <hr />
+    기본 주소 : geodb.uos.ac.kr/qr/api/room/ <br />
+    <hr />
+    항목 조회(모두) : geodb.uos.ac.kr/qr/api/room/[테이블 이름]<br />
+    예시 : geodb.uos.ac.kr/qr/api/room/equipment <br />
+    <hr />
+    항목 조회(단일) : geodb.uos.ac.kr/qr/api/room/[테이블 이름]/[기본키] <br />
+    예시 : geodb.uos.ac.kr/qr/api/room/building/15 <br />
+    <hr />
+    항목 조회(조건문) : geodb.uos.ac.kr/qr/api/room/[테이블 이름]_condt -> POST 방식 { "condt" : "조건문 "}<br />
+    예시 : geodb.uos.ac.kr/qr/api/room/equipment_condt + { "condt" : "price&gt;300 AND lifeYear&lt;15"} <br />
+    <hr />
+    항목 추가 : geodb.uos.ac.kr/qr/api/room/[테이블 이름]_add -> POST 방식 {"항목명" : 내용 } <br />
+    예시 : geodb.uos.ac.kr/qr/api/room/building_add   +  { "buildingNo" : 1, "buildingName" : "새로운 건물", "totalFloor" : 1 } (json형태의 데이터로 전달해야됨)<br />
+    <hr />
+    항목 제거 : geodb.uos.ac.kr/qr/api/room/[테이블 이름]_delete -> POST 방식 {"기본키" : 내용}<br />
+    예시 : geodb.uos.ac.kr/qr/api/room/building_delete   +  { "buildingNo" : 1 } (기본키 buildingNo가 1인 항목이 제거됨)<br />
+    <hr />
+    항목 업데이트 : geodb.uos.ac.kr/qr/api/room/[테이블 이름]_update -> POST 방식 { "condt" : "SET '수정할항목' = '수정할내용', ''수정할 항목' = '수정할 내용' where '기본키' = '기본키내용' "}<br />
+    예시 : geodb.uos.ac.kr/qr/api/room/building_update   +  { "buildingNo" : 1, "buildingName" : "수정된 건물", "totalFloor" : 3 } (buildingNo가 1인 항목의 내용이 수정됨)<br />
+
+</body>
+</html>

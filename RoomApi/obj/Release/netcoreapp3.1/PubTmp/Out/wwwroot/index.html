@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.datatables.net/t/bs-3.3.6/jqc-1.12.0,dt-1.10.11/datatables.min.css" />
+    <script src="https://cdn.datatables.net/t/bs-3.3.6/jqc-1.12.0,dt-1.10.11/datatables.min.js"></script>
+    <script>
+		jQuery(function ($) {
+			$("#building").DataTable({
+				ajax: {
+					'url': 'http://geodb.uos.ac.kr/qr/api/room/building',
+					'type': 'GET',
+					'dataSrc': ''
+				},
+				columns: [
+					{ "data": "buildingNo" },
+					{ "data": "buildingName" },
+					{ "data": "totalFloor" }
+				],
+				scrollX: true,
+				columnDefs: [
+					{ targets: [0], width: "10%" },
+				]
+			});
+			$("#account").DataTable({
+				ajax: {
+					'url': 'http://geodb.uos.ac.kr/qr/api/room/account',
+					'type': 'GET',
+					'dataSrc': ''
+				},
+				columns: [
+					{ "data": "userID" },
+					{ "data": "userPW" },
+					{ "data": "userName" },
+					{ "data": "phoneNumber" },
+					{ "data": "authority" },
+					{ "data": "deptNo" }
+				],
+				scrollX: true,
+				columnDefs: [
+					{ targets: [0], width: "10%" },
+				]
+			});
+			$("#department").DataTable({
+				ajax: {
+					'url': 'http://geodb.uos.ac.kr/qr/api/room/department',
+					'type': 'GET',
+					'dataSrc': ''
+				},
+				columns: [
+					{ "data": "deptNo" },
+					{ "data": "deptName" },
+					{ "data": "deptPhoneNum" }
+				],
+				scrollX: true,
+				columnDefs: [
+					{ targets: [0], width: "10%" },
+				]
+			});
+			$("#room").DataTable({
+				ajax: {
+					'url': 'http://geodb.uos.ac.kr/qr/api/room/room',
+					'type': 'GET',
+					'dataSrc': ''
+				},
+				columns: [
+					{ "data": "roomid" },
+					{ "data": "roomname" },
+					{ "data": "area" },
+					{ "data": "roomnum" },
+					{ "data": "buildingNo" },
+					{ "data": "deptNo" },
+					{ "data": "floor" }
+				],
+				scrollX: true,
+				columnDefs: [
+					{ targets: [0], width: "10%" },
+				]
+			});
+			$("#equipment").DataTable({
+				ajax: {
+					'url': 'http://geodb.uos.ac.kr/qr/api/room/equipment',
+					'type': 'GET',
+					'dataSrc': ''
+				},
+				columns: [
+					{ "data": "equipNo" },
+					{ "data": "causeNo" },
+					{ "data": "name_KR" },
+					{ "data": "name_ENG" },
+					{ "data": "itemName" },
+					{ "data": "isDisuse" },
+					{ "data": "inDate" },
+					{ "data": "price" },
+					{ "data": "type" },
+					{ "data": "lifeYear" },
+					{ "data": "status" },
+					{ "data": "qR_Date" },
+					{ "data": "etc" },
+					{ "data": "roomID" },
+					{ "data": "userID" },
+					{ "data": "adminID" }
+				],
+				scrollX: true,
+				columnDefs: [
+					{ targets: [0], width: "10%" },
+				]
+			});
+			$("#complaint").DataTable({
+				ajax: {
+					'url': 'http://geodb.uos.ac.kr/qr/api/room/complaint',
+					'type': 'GET',
+					'dataSrc': ''
+				},
+				columns: [
+					{ "data": "registNo" },
+					{ "data": "request" },
+					{ "data": "registDate" },
+					{ "data": "fixedDate" },
+					{ "data": "equipNo" },
+					{ "data": "userID" }
+				],
+				scrollX: true,
+				columnDefs: [
+					{ targets: [0], width: "10%" },
+				]
+			});
+			$("#maintenance").DataTable({
+				ajax: {
+					'url': 'http://geodb.uos.ac.kr/qr/api/room/maintenance',
+					'type': 'GET',
+					'dataSrc': ''
+				},
+				columns: [
+					{ "data": "m_No" },
+					{ "data": "applyDate" },
+					{ "data": "applyReason" },
+					{ "data": "isApproval" },
+					{ "data": "approvalDate" },
+					{ "data": "startDate" },
+					{ "data": "endDate" },
+					{ "data": "details" },
+					{ "data": "cost" },
+					{ "data": "equipNo" }
+				],
+				scrollX: true,
+				columnDefs: [
+					{ targets: [0], width: "10%" },
+				]
+			});
+			$("#survey").DataTable({
+				ajax: {
+					'url': 'http://geodb.uos.ac.kr/qr/api/room/survey',
+					'type': 'GET',
+					'dataSrc': ''
+				},
+				columns: [
+					{ "data": "surveyNo" },
+					{ "data": "surveyDate" },
+					{ "data": "surveyResult" },
+					{ "data": "etc" },
+					{ "data": "equipNo" }
+				],
+				scrollX: true,
+				columnDefs: [
+					{ targets: [0], width: "10%" },
+				]
+			});
+			$("#history").DataTable({
+				ajax: {
+					'url': 'http://geodb.uos.ac.kr/qr/api/room/history',
+					'type': 'GET',
+					'dataSrc': ''
+				},
+				columns: [
+					{ "data": "historyNo" },
+					{ "data": "equipNo" },
+					{ "data": "causeNo" },
+					{ "data": "name_KR" },
+					{ "data": "name_ENG" },
+					{ "data": "itemName" },
+					{ "data": "isDisuse" },
+					{ "data": "inDate" },
+					{ "data": "price" },
+					{ "data": "type" },
+					{ "data": "lifeYear" },
+					{ "data": "status" },
+					{ "data": "qR_Date" },
+					{ "data": "etc" },
+					{ "data": "roomID" },
+					{ "data": "userID" },
+					{ "data": "adminID" },
+					{ "data": "editDate" },
+					{ "data": "editType" }
+				],
+				scrollX: true,
+				columnDefs: [
+					{ targets: [0], width: "10%" },
+				]
+			});
+		});
+    </script>
+    <title></title>
+    <style>
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="howto.html">API 사용법</a><br />
+    <a href="update.html">업데이트 내역</a><br />
+    <a href="https://github.com/aka2344/easytagAPI">깃허브 바로가기</a>
+    <br />
+    <div style="width: 40%;">
+        <h3>Building</h3>
+        <table id="building" class="table table-bordered" style="width: 100%;" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>buildingNo</th>
+                    <th>buildingName</th>
+                    <th>totalFloor</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <br>
+    <div style="width: 40%;">
+        <h3>Department</h3>
+        <table id="department" class="table table-bordered" style="width: 100%;" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>deptNo</th>
+                    <th>deptName</th>
+                    <th>deptPhoneNum</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <br>
+    <div style="width: 40%;">
+        <h3>Room</h3>
+        <table id="room" class="table table-bordered" style="width: 100%;" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>roomid</th>
+                    <th>roomname</th>
+                    <th>area</th>
+                    <th>roomnum</th>
+                    <th>buildingNo</th>
+                    <th>deptNo</th>
+                    <th>floor</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <br>
+    <div style="width: 40%;">
+        <h3>Equipment</h3>
+        <table id="equipment" class="table table-bordered" style="width: 100%;" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>equipNo</th>
+                    <th>causeNo</th>
+                    <th>name_KR</th>
+                    <th>name_ENG</th>
+                    <th>itemName</th>
+                    <th>isDisuse</th>
+                    <th>inDate</th>
+                    <th>price</th>
+                    <th>type</th>
+                    <th>lifeYear</th>
+                    <th>status</th>
+                    <th>qR_Date</th>
+                    <th>etc</th>
+                    <th>roomID</th>
+                    <th>userID</th>
+                    <th>adminID</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <br>
+    <div style="width: 40%;">
+        <h3>Account</h3>
+        <table id="account" class="table table-bordered" style="width: 100%;" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>userID</th>
+                    <th>userPW</th>
+                    <th>userName</th>
+                    <th>phoneNumber</th>
+                    <th>authority</th>
+                    <th>deptNo</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <br>
+    <div style="width: 40%;">
+        <h3>Complaint</h3>
+        <table id="complaint" class="table table-bordered" style="width: 100%;" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>registNo</th>
+                    <th>request</th>
+                    <th>registDate</th>
+                    <th>fixedDate</th>
+                    <th>equipNo</th>
+                    <th>userID</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <br>
+    <div style="width: 40%;">
+        <h3>Maintenance</h3>
+        <table id="maintenance" class="table table-bordered" style="width: 100%;" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>m_No</th>
+                    <th>applyDate</th>
+                    <th>applyReason</th>
+                    <th>isApproval</th>
+                    <th>approvalDate</th>
+                    <th>startDate</th>
+                    <th>endDate</th>
+                    <th>details</th>
+                    <th>cost</th>
+                    <th>equipNo</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <br>
+    <div style="width: 40%;">
+        <h3>Survey</h3>
+        <table id="survey" class="table table-bordered" style="width: 100%;" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>surveyNo</th>
+                    <th>surveyDate</th>
+                    <th>surveyResult</th>
+                    <th>etc</th>
+                    <th>equipNo</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <br>
+    <div style="width: 40%;">
+        <h3>History</h3>
+        <table id="history" class="table table-bordered" style="width: 100%;" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>historyNo</th>
+                    <th>equipNo</th>
+                    <th>causeNo</th>
+                    <th>name_KR</th>
+                    <th>name_ENG</th>
+                    <th>itemName</th>
+                    <th>isDisuse</th>
+                    <th>inDate</th>
+                    <th>price</th>
+                    <th>type</th>
+                    <th>lifeYear</th>
+                    <th>status</th>
+                    <th>qR_Date</th>
+                    <th>etc</th>
+                    <th>roomID</th>
+                    <th>userID</th>
+                    <th>adminID</th>
+                    <th>editDate</th>
+                    <th>editType</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+
+
+</body>
+
+</html>

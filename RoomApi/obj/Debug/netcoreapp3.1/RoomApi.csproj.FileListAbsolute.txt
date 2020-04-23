@@ -1,0 +1,86 @@
+C:\Users\yugo1\source\repos\PostApi\RoomApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\yugo1\source\repos\PostApi\RoomApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\yugo1\source\repos\PostApi\RoomApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\yugo1\source\repos\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.exe
+C:\Users\yugo1\source\repos\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.csprojAssemblyReference.cache
+C:\Users\yugo1\source\repos\PostApi\RoomApi\obj\Debug\netcoreapp3.1\staticwebassets\RoomApi.StaticWebAssets.Manifest.cache
+C:\Users\yugo1\source\repos\PostApi\RoomApi\obj\Debug\netcoreapp3.1\staticwebassets\RoomApi.StaticWebAssets.xml
+C:\Users\yugo1\source\repos\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.AssemblyInfoInputs.cache
+C:\Users\yugo1\source\repos\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.AssemblyInfo.cs
+C:\Users\yugo1\source\repos\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.RazorTargetAssemblyInfo.cache
+C:\Users\yugo1\source\repos\PostApi\RoomApi\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\yugo1\source\repos\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.csproj.CopyComplete
+C:\Users\yugo1\source\repos\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.deps.json
+C:\Users\yugo1\source\repos\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.runtimeconfig.json
+C:\Users\yugo1\source\repos\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.runtimeconfig.dev.json
+C:\Users\yugo1\source\repos\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.dll
+C:\Users\yugo1\source\repos\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.pdb
+C:\Users\yugo1\source\repos\PostApi\RoomApi\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\yugo1\source\repos\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yugo1\source\repos\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.dll
+C:\Users\yugo1\source\repos\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.pdb
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.csprojAssemblyReference.cache
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\obj\Debug\netcoreapp3.1\staticwebassets\RoomApi.StaticWebAssets.Manifest.cache
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\obj\Debug\netcoreapp3.1\staticwebassets\RoomApi.StaticWebAssets.xml
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.AssemblyInfoInputs.cache
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.AssemblyInfo.cs
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.dll
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.pdb
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.exe
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.deps.json
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.runtimeconfig.json
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.runtimeconfig.dev.json
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.dll
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.pdb
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.RazorTargetAssemblyInfo.cache
+C:\Users\ptdak\OneDrive\바탕 화면\수업\졸작\PostApi\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.csproj.CopyComplete
+C:\Users\GeoDB\Desktop\졸작\RoomApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\GeoDB\Desktop\졸작\RoomApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\GeoDB\Desktop\졸작\RoomApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\GeoDB\Desktop\졸작\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.exe
+C:\Users\GeoDB\Desktop\졸작\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.deps.json
+C:\Users\GeoDB\Desktop\졸작\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.runtimeconfig.json
+C:\Users\GeoDB\Desktop\졸작\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.runtimeconfig.dev.json
+C:\Users\GeoDB\Desktop\졸작\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.dll
+C:\Users\GeoDB\Desktop\졸작\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.pdb
+C:\Users\GeoDB\Desktop\졸작\RoomApi\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\GeoDB\Desktop\졸작\RoomApi\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.csprojAssemblyReference.cache
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.csproj.CoreCompileInputs.cache
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.AssemblyInfoInputs.cache
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.AssemblyInfo.cs
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.RazorTargetAssemblyInfo.cache
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.csproj.CopyComplete
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\staticwebassets\RoomApi.StaticWebAssets.Manifest.cache
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\staticwebassets\RoomApi.StaticWebAssets.xml
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.dll
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.pdb
+C:\Users\GeoDB\Desktop\졸작\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.genruntimeconfig.cache
+C:\Users\yugo1\Desktop\동훈\RoomApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\yugo1\Desktop\동훈\RoomApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\yugo1\Desktop\동훈\RoomApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\yugo1\Desktop\동훈\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.exe
+C:\Users\yugo1\Desktop\동훈\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.deps.json
+C:\Users\yugo1\Desktop\동훈\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.runtimeconfig.json
+C:\Users\yugo1\Desktop\동훈\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.runtimeconfig.dev.json
+C:\Users\yugo1\Desktop\동훈\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.dll
+C:\Users\yugo1\Desktop\동훈\RoomApi\bin\Debug\netcoreapp3.1\RoomApi.pdb
+C:\Users\yugo1\Desktop\동훈\RoomApi\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\yugo1\Desktop\동훈\RoomApi\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\yugo1\Desktop\동훈\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.csprojAssemblyReference.cache
+C:\Users\yugo1\Desktop\동훈\RoomApi\obj\Debug\netcoreapp3.1\staticwebassets\RoomApi.StaticWebAssets.Manifest.cache
+C:\Users\yugo1\Desktop\동훈\RoomApi\obj\Debug\netcoreapp3.1\staticwebassets\RoomApi.StaticWebAssets.xml
+C:\Users\yugo1\Desktop\동훈\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yugo1\Desktop\동훈\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.AssemblyInfoInputs.cache
+C:\Users\yugo1\Desktop\동훈\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.AssemblyInfo.cs
+C:\Users\yugo1\Desktop\동훈\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.RazorTargetAssemblyInfo.cache
+C:\Users\yugo1\Desktop\동훈\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.csproj.CopyComplete
+C:\Users\yugo1\Desktop\동훈\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.dll
+C:\Users\yugo1\Desktop\동훈\RoomApi\obj\Debug\netcoreapp3.1\RoomApi.pdb
