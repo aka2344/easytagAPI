@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yugo1\\Desktop\\동훈\\RoomApi\\RoomApi.csproj": {}
+    "C:\\Users\\GeoDB\\Desktop\\기타\\4학년 1학기\\졸작\\easytagAPI\\RoomApi\\RoomApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yugo1\\Desktop\\동훈\\RoomApi\\RoomApi.csproj": {
+    "C:\\Users\\GeoDB\\Desktop\\기타\\4학년 1학기\\졸작\\easytagAPI\\RoomApi\\RoomApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yugo1\\Desktop\\동훈\\RoomApi\\RoomApi.csproj",
+        "projectUniqueName": "C:\\Users\\GeoDB\\Desktop\\기타\\4학년 1학기\\졸작\\easytagAPI\\RoomApi\\RoomApi.csproj",
         "projectName": "RoomApi",
-        "projectPath": "C:\\Users\\yugo1\\Desktop\\동훈\\RoomApi\\RoomApi.csproj",
-        "packagesPath": "C:\\Users\\yugo1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yugo1\\Desktop\\동훈\\RoomApi\\obj\\",
+        "projectPath": "C:\\Users\\GeoDB\\Desktop\\기타\\4학년 1학기\\졸작\\easytagAPI\\RoomApi\\RoomApi.csproj",
+        "packagesPath": "C:\\Users\\GeoDB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GeoDB\\Desktop\\기타\\4학년 1학기\\졸작\\easytagAPI\\RoomApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\yugo1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GeoDB\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

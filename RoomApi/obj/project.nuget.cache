@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L1nbwUXb1GjhOKSY13XbNTKsOrVGUBwjDZogzeZDYxcpPT8mk92oyKHfQH4DREW50T4cV9an9bsShjYDYX5B/Q==",
+  "dgSpecHash": "szuvclD9C4BJ4dUaT5+GBGz01Iz6CqOnJKoP3s9t7v6kpFOb5iDYQ/k1QtvKjwe9+KIeYhD2eRb2FAbiIm+i+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GeoDB\\Desktop\\졸작\\RoomApi\\RoomApi.csproj",
+  "projectFilePath": "C:\\Users\\GeoDB\\Desktop\\기타\\4학년 1학기\\졸작\\easytagAPI\\RoomApi\\RoomApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GeoDB\\.nuget\\packages\\dapper\\2.0.30\\dapper.2.0.30.nupkg.sha512",
     "C:\\Users\\GeoDB\\.nuget\\packages\\npgsql\\4.1.3.1\\npgsql.4.1.3.1.nupkg.sha512",
