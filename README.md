@@ -14,7 +14,7 @@ ASP.NET CORE API로 구현된 본 API 프로그램은 서버 DB와 안드로이�
 
 
 
-## More Information about EasyTag app
+## More Information
 
 EasyTag에 대한 보다 자세한 설명은 하단 링크들을 참조하시기 바랍니다.
 
