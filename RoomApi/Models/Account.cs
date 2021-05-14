@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RoomApi.Models
 {
-    public class Account:BaseEntity
+    public class Account : BaseEntity
     {
         [Key]
         public string UserID { get; set; }
@@ -16,4 +16,5 @@ namespace RoomApi.Models
         public string Authority { get; set; }
         public int DeptNo { get; set; }
     }
+
 }
