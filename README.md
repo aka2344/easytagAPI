@@ -26,5 +26,5 @@ EasyTag에 대한 보다 자세한 설명은 하단 링크들을 참조하시기
 
 [EasyTag 전시 링크](https://uos-urbanscience.org/archives/uos_portfolio/easy-tag-%ea%b3%b5%ea%b0%84%eb%8d%b0%ec%9d%b4%ed%84%b0%eb%b2%a0%ec%9d%b4%ec%8a%a4%ec%99%80-qr%ec%bd%94%eb%93%9c%eb%a5%bc-%ed%99%9c%ec%9a%a9%ed%95%9c-%ea%b8%b0%ec%9e%90%ec%9e%ac-%ea%b4%80%eb%a6%ac)
 
-[EasyTag - API 설명 보기](https://aka2344.github.io/project/2020/06/10/graduproj1.html)
+[EasyTag - API 설명 보기](https://aka2344.github.io/graduproj1)
 
